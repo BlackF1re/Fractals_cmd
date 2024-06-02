@@ -42,7 +42,7 @@ public class Program
                 Console.Clear();
                 DrawSierpinskiTriangle(graphics, p1, p2, p3, depth);
                 Console.WriteLine("Завершено.");
-                bitmap.Save("serpinsky.bmp", ImageFormat.Bmp);
+                bitmap.Save("serpinsky.jpeg", ImageFormat.Jpeg); //bmp the best
                 Console.Beep();
                 Console.ReadKey();
                 break;
